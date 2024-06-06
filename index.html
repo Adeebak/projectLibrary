@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Library </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <button type="button" class="btn hidden"> NEW BOOK </button>
+
+    <div class="form-main hidden">
+        <form action="#" method="get" class="visible" id="myForm">
+            <label for="title"> Title </label>
+            <input type="text" name="title" id="title">
+            <label for="author"> Author </label>
+            <input type="text" name="author" id="author">
+            <label for="pages"> Pages </label>
+            <input type="text" name="pages" id="pages">
+            <label for="read"> Read </label>
+            <input type="checkbox" name="read" id="read">
+            <button type="submit" class="btn-submit"> Submit </button>
+        </form>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h1 class="card-title"> </h1>
+            <p class="card-author"> </p>
+            <p class="card-pages"> </p>
+            <p class="card-read"> </p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
